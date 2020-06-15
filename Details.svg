@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="1.047" y2="0.178" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7195f7" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#3c52d6" stop-opacity="0.502"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="1.047" y2="0.178" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7195f7"/>
+      <stop offset="1" stop-color="#3c52d6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="1" x2="1" y2="0.186" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9a57eb" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#6f6bf2" stop-opacity="0.502"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="1" x2="1" y2="0.186" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9a57eb"/>
+      <stop offset="1" stop-color="#6f6bf2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.96" y1="0.301" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#52a5c4" stop-opacity="0.502"/>
+      <stop offset="0.493" stop-color="#62bac4" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#71cec4" stop-opacity="0.502"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.96" y1="0.301" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#52a5c4"/>
+      <stop offset="0.493" stop-color="#62bac4"/>
+      <stop offset="1" stop-color="#71cec4"/>
+    </linearGradient>
+    <filter id="Rectangle_7" x="-9" y="-7" width="393" height="118" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-7" x1="1.742" y1="1" x2="1.742" y2="-0.23" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ee7795"/>
+      <stop offset="1" stop-color="#ef8876"/>
+    </linearGradient>
+    <filter id="Rectangle_8_Copy_6" x="189.5" y="391.5" width="107" height="181" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-14" x1="0.961" y1="0.294" x2="0.521" y2="1" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-15" x1="0.961" y1="0.294" x2="0.521" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ee7795" stop-opacity="0.102"/>
+      <stop offset="1" stop-color="#ef8876" stop-opacity="0.102"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-19" x1="0.961" y1="0.294" x2="0.521" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ee7795" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#ef8876" stop-opacity="0.502"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-22" x1="0.961" y1="0.294" x2="0.521" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ee7795" stop-opacity="0.302"/>
+      <stop offset="1" stop-color="#ef8876" stop-opacity="0.302"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-56" x1="1" x2="1" y2="0" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-57" x2="0.5" y2="0" xlink:href="#linear-gradient-4"/>
+    <clipPath id="clip-Details">
+      <rect width="375" height="812"/>
+    </clipPath>
+  </defs>
+  <g id="Details" clip-path="url(#clip-Details)">
+    <rect width="375" height="812" fill="#fff"/>
+    <path id="Rectangle" d="M0,0H375V812H0Z" fill="#221f30"/>
+    <path id="Rectangle_8_Copy_7" data-name="Rectangle 8 Copy 7" d="M0,0H375V264H0Z" transform="translate(0 548)" fill="#332f48"/>
+    <g id="Group_6_Copy" data-name="Group 6 Copy" transform="translate(15 594)">
+      <path id="Oval_Copy_3" data-name="Oval Copy 3" d="M16.364,0A16.364,16.364,0,1,1,0,16.364,16.364,16.364,0,0,1,16.364,0Z" transform="translate(0.636 0.636)" fill="url(#linear-gradient)"/>
+      <path id="Oval_Copy_2" data-name="Oval Copy 2" d="M12.727,0A12.727,12.727,0,1,1,0,12.727,12.727,12.727,0,0,1,12.727,0Z" transform="translate(4.273 4.273)" fill="url(#linear-gradient-2)"/>
+      <g id="bitcoin-logo" transform="translate(11.545 9.364)">
+        <path id="Shape" d="M5.662,15.868V13.474q-.775,0-1.181-.009v2.4H2.991V13.436l-.523,0c-.232,0-.41,0-.532,0H0l.3-1.745H1.374a.516.516,0,0,0,.562-.487V7.362h.155a1,1,0,0,0-.155-.01V4.615a.767.767,0,0,0-.861-.648H0V2.4l2.052.01q.618,0,.939-.01V0h1.49V2.355q.794-.019,1.181-.019V0h1.49V2.4a8.75,8.75,0,0,1,1.355.214A4.478,4.478,0,0,1,9.6,3.046a2.207,2.207,0,0,1,.8.744,2.4,2.4,0,0,1,.354,1.091A2.253,2.253,0,0,1,9.484,7.342a2.915,2.915,0,0,1,1.694.983,2.791,2.791,0,0,1,.436,2.04,3.558,3.558,0,0,1-.315,1.193,2.645,2.645,0,0,1-.624.849,3.182,3.182,0,0,1-.939.557,5.76,5.76,0,0,1-1.176.329,11.7,11.7,0,0,1-1.408.143v2.432Z" fill="#fff"/>
+      </g>
+    </g>
+    <text id="_20_copy" data-name="20% copy" transform="translate(197 619)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">20%</tspan></text>
+    <g id="Group_4" data-name="Group 4" transform="translate(64 594)">
+      <g id="Group_4_Copy" data-name="Group 4 Copy">
+        <text id="Bitcoin" transform="translate(0 17)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Bitcoin</tspan></text>
+      </g>
+      <text id="Purchase" transform="translate(0 32)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI" opacity="0.5"><tspan x="0" y="0">Purchase</tspan></text>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(312 595)">
+      <text id="_-_329" data-name="- $329" transform="translate(1 15)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">- $329</tspan></text>
+      <text id="_13_May" data-name="13 May" transform="translate(0 31)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI" opacity="0.5"><tspan x="0" y="0">13 May</tspan></text>
+    </g>
+    <text id="_17_copy" data-name="17% copy" transform="translate(197 689)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">17%</tspan></text>
+    <g id="Group_6" data-name="Group 6" transform="translate(312 665)">
+      <text id="_-_420" data-name="- $420" transform="translate(1 15)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">- $420</tspan></text>
+      <text id="_13_May-2" data-name="13 May" transform="translate(0 31)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI" opacity="0.5"><tspan x="0" y="0">13 May</tspan></text>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(64 664)">
+      <text id="Sale_Copy" data-name="Sale Copy" transform="translate(0 32)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI" opacity="0.5"><tspan x="0" y="0">Sale</tspan></text>
+      <text id="Litecoin_Copy" data-name="Litecoin Copy" transform="translate(0 17)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Litecoin</tspan></text>
+    </g>
+    <g id="Group_5_Copy" data-name="Group 5 Copy" transform="translate(15 664)">
+      <path id="Oval_Copy_3-2" data-name="Oval Copy 3" d="M16.364,0A16.364,16.364,0,1,1,0,16.364,16.364,16.364,0,0,1,16.364,0Z" transform="translate(0.636 0.636)" fill="url(#linear-gradient-3)"/>
+      <path id="Oval_Copy_2-2" data-name="Oval Copy 2" d="M12.727,0A12.727,12.727,0,1,1,0,12.727,12.727,12.727,0,0,1,12.727,0Z" transform="translate(4.273 4.273)" fill="url(#linear-gradient-4)"/>
+      <g id="Litecoin" transform="translate(11 10)">
+        <path id="Shape-2" data-name="Shape" d="M5.194,10.511l.85-3.2,2.012-.735.5-1.881-.017-.047-1.98.723L7.986,0H3.939L2.073,7.012.515,7.581,0,9.519l1.557-.569-1.1,4.132h10.77l.69-2.572H5.194" transform="translate(0.039 0.017)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_7" data-name="Group 7" transform="translate(312 736)">
+      <text id="_-_120" data-name="- $120" transform="translate(1 15)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">- $120</tspan></text>
+      <text id="_13_May-3" data-name="13 May" transform="translate(0 30)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI" opacity="0.5"><tspan x="0" y="0">13 May</tspan></text>
+    </g>
+    <text id="_39_copy" data-name="39% copy" transform="translate(197 759)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">39%</tspan></text>
+    <g id="Group_2" data-name="Group 2" transform="translate(64 735)">
+      <text id="Sale" transform="translate(0 31)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI" opacity="0.5"><tspan x="0" y="0">Sale</tspan></text>
+      <text id="Ethereum_Copy" data-name="Ethereum Copy" transform="translate(0 17)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Ethereum</tspan></text>
+    </g>
+    <g id="Group_3_Copy" data-name="Group 3 Copy" transform="translate(15 734)">
+      <path id="Oval_Copy_3-3" data-name="Oval Copy 3" d="M16.364,0A16.364,16.364,0,1,1,0,16.364,16.364,16.364,0,0,1,16.364,0Z" transform="translate(0.636 0.636)" fill="url(#linear-gradient-5)"/>
+      <path id="Oval_Copy_2-3" data-name="Oval Copy 2" d="M12.727,0A12.727,12.727,0,1,1,0,12.727,12.727,12.727,0,0,1,12.727,0Z" transform="translate(4.273 4.273)" fill="url(#linear-gradient-6)"/>
+      <g id="Ethereum_logo_2014" transform="translate(11 7)">
+        <path id="Shape-3" data-name="Shape" d="M.131,0,0,.445V13.367l.131.131,6-3.546Z" transform="translate(5.867)" fill="#fff"/>
+        <path id="Shape-4" data-name="Shape" d="M6,0,0,9.953,6,13.5V0Z" fill="#fff"/>
+        <path id="Shape-5" data-name="Shape" d="M.074,3.544,0,3.634v4.6l.074.216L6.076,0Z" transform="translate(5.924 11.09)" fill="#fff"/>
+        <path id="Shape-6" data-name="Shape" d="M6,8.453V3.544L0,0Z" transform="translate(0 11.09)" fill="#fff"/>
+        <path id="Shape-7" data-name="Shape" d="M0,6.272,6,2.726,0,0Z" transform="translate(5.998 7.226)" fill="#fff"/>
+        <path id="Shape-8" data-name="Shape" d="M0,2.726,6,6.272V0Z" transform="translate(0 7.226)" fill="#fff"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_7)">
+      <path id="Rectangle_7-2" data-name="Rectangle 7" d="M0,0H375V100H0Z" fill="#332f48"/>
+    </g>
+    <g id="iPhone_X_Home_Indicator_Home_Indicator_-_On_Dark" data-name="iPhone X/Home Indicator/Home Indicator - On Dark" transform="translate(0 778)">
+      <rect id="iPhone_X_Home_Indicator_Home_Indicator_-_On_Dark_background" data-name="iPhone X/Home Indicator/Home Indicator - On Dark background" width="375" height="34" fill="none"/>
+      <path id="Rectangle_24" data-name="Rectangle 24" d="M2.5,0h129a2.5,2.5,0,0,1,0,5H2.5a2.5,2.5,0,0,1,0-5Z" transform="translate(121 20)" fill="#fff" opacity="0.14"/>
+    </g>
+    <g id="iPhone_X_Status_Bars_Status_Bar_White_" data-name="iPhone X/Status Bars/Status Bar (White)">
+      <rect id="iPhone_X_Status_Bars_Status_Bar_White_background" data-name="iPhone X/Status Bars/Status Bar (White) background" width="375" height="44" fill="none"/>
+      <g id="iPhone_X_Status_Bars_Status_Bar_Black_" data-name="iPhone X/Status Bars/Status Bar (Black)">
+        <path id="Rectangle-2" data-name="Rectangle" d="M0,0H375V44H0Z" fill="none"/>
+        <g id="Battery" transform="translate(336 17)">
+          <g id="Border" transform="translate(0 0.333)" fill="none" stroke-miterlimit="10" opacity="0.35">
+            <path d="M2.667,0H19.333A2.667,2.667,0,0,1,22,2.667v6a2.667,2.667,0,0,1-2.667,2.667H2.667A2.667,2.667,0,0,1,0,8.667v-6A2.667,2.667,0,0,1,2.667,0Z" stroke="none"/>
+            <path d="M 2.666669845581055 0.9999961853027344 C 1.747669219970703 0.9999961853027344 1 1.747666358947754 1 2.666666984558105 L 1 8.666666030883789 C 1 9.585666656494141 1.747669219970703 10.33333683013916 2.666669845581055 10.33333683013916 L 19.33333015441895 10.33333683013916 C 20.2523307800293 10.33333683013916 21 9.585666656494141 21 8.666666030883789 L 21 2.666666984558105 C 21 1.747666358947754 20.2523307800293 0.9999961853027344 19.33333015441895 0.9999961853027344 L 2.666669845581055 0.9999961853027344 M 2.666669845581055 -3.814697265625e-06 L 19.33333015441895 -3.814697265625e-06 C 20.80608940124512 -3.814697265625e-06 22 1.193906784057617 22 2.666666984558105 L 22 8.666666030883789 C 22 10.13942623138428 20.80608940124512 11.33333683013916 19.33333015441895 11.33333683013916 L 2.666669845581055 11.33333683013916 C 1.193910598754883 11.33333683013916 0 10.13942623138428 0 8.666666030883789 L 0 2.666666984558105 C 0 1.193906784057617 1.193910598754883 -3.814697265625e-06 2.666669845581055 -3.814697265625e-06 Z" stroke="none" fill="#fff"/>
+          </g>
+          <path id="Cap" d="M0,0V4A2.17,2.17,0,0,0,1.328,2,2.17,2.17,0,0,0,0,0" transform="translate(23 4)" fill="#fff" opacity="0.4"/>
+          <path id="Capacity" d="M1.333,0H16.667A1.333,1.333,0,0,1,18,1.333V6a1.333,1.333,0,0,1-1.333,1.333H1.333A1.333,1.333,0,0,1,0,6V1.333A1.333,1.333,0,0,1,1.333,0Z" transform="translate(2 2.333)" fill="#fff"/>
+        </g>
+        <path id="Wifi" d="M7.415,10.873l-2-2.016a.313.313,0,0,1,.01-.456,3.421,3.421,0,0,1,4.419,0,.31.31,0,0,1,.1.226.315.315,0,0,1-.094.23l-2,2.016a.311.311,0,0,1-.443,0Zm3.515-3.53a4.9,4.9,0,0,0-6.585,0,.311.311,0,0,1-.434-.006L2.758,6.17a.322.322,0,0,1,0-.459,7.158,7.158,0,0,1,9.752,0,.322.322,0,0,1,.005.459L11.364,7.337a.311.311,0,0,1-.434.006Zm2.66-2.687a8.64,8.64,0,0,0-11.907,0,.309.309,0,0,1-.434,0L.094,3.486a.322.322,0,0,1,0-.456,10.9,10.9,0,0,1,15.08,0,.323.323,0,0,1,0,.456L14.023,4.652a.307.307,0,0,1-.433,0Z" transform="translate(315.694 17.331)" fill="#fff"/>
+        <path id="Cellular_Connection" data-name="Cellular Connection" d="M15,10.667a1,1,0,0,1-1-1V1a1,1,0,0,1,1-1h1a1,1,0,0,1,1,1V9.667a1,1,0,0,1-1,1Zm-4.667,0a1,1,0,0,1-1-1V3.334a1,1,0,0,1,1-1h1a1,1,0,0,1,1,1V9.667a1,1,0,0,1-1,1Zm-4.667,0a1,1,0,0,1-1-1v-4a1,1,0,0,1,1-1h1a1,1,0,0,1,1,1v4a1,1,0,0,1-1,1ZM1,10.667a1,1,0,0,1-1-1v-2a1,1,0,0,1,1-1H2a1,1,0,0,1,1,1v2a1,1,0,0,1-1,1Z" transform="translate(293.667 17.667)" fill="#fff"/>
+        <g id="Time_Style" data-name="Time Style" transform="translate(21 13)">
+          <rect id="iPhone_X_Overrides_Time_White_background" data-name="iPhone X/Overrides/Time White background" width="54" height="21" fill="none"/>
+          <text id="_Time" data-name="↳ Time" transform="translate(0 1.273)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="14.582" y="15" letter-spacing="-0.02em">9:4</tspan><tspan y="15">1</tspan></text>
+        </g>
+      </g>
+    </g>
+    <text id="STATISTIC" transform="translate(187.5 76)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" letter-spacing="-0.037em"><tspan x="-35.915" y="0">STATISTIC</tspan></text>
+    <path id="Line_2_Copy_6" data-name="Line 2 Copy 6" d="M1.5.5v149" transform="translate(406 187)" fill="none" stroke="#221f30" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Rectangle_8_Copy" data-name="Rectangle 8 Copy" d="M0,0H375V150H0Z" transform="translate(1 398)" fill="#332f48" opacity="0.837"/>
+    <path id="Rectangle_8" data-name="Rectangle 8" d="M0,0H53V82H0Z" transform="translate(1 466)" fill="url(#linear-gradient-7)"/>
+    <path id="Line_2" data-name="Line 2" d="M.5.5v149" transform="translate(53 398)" fill="none" stroke="#221f30" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Rectangle_8_Copy_2" data-name="Rectangle 8 Copy 2" d="M0,0H53V104H0Z" transform="translate(54 444)" fill="url(#linear-gradient-7)"/>
+    <path id="Line_2_Copy" data-name="Line 2 Copy" d="M.5.5v149" transform="translate(107 398)" fill="none" stroke="#221f30" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Rectangle_8_Copy_4" data-name="Rectangle 8 Copy 4" d="M0,0H53V44H0Z" transform="translate(108 504)" fill="url(#linear-gradient-7)"/>
+    <path id="Line_2_Copy_3" data-name="Line 2 Copy 3" d="M.5.5v149" transform="translate(161 398)" fill="none" stroke="#221f30" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Rectangle_8_Copy_3" data-name="Rectangle 8 Copy 3" d="M0,0H53V100H0Z" transform="translate(162 448)" fill="url(#linear-gradient-7)"/>
+    <path id="Line_2_Copy_2" data-name="Line 2 Copy 2" d="M.5.5v149" transform="translate(215 398)" fill="none" stroke="#221f30" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Line_2_Copy_5" data-name="Line 2 Copy 5" d="M.5.5v149" transform="translate(269 398)" fill="none" stroke="#221f30" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Rectangle_8_Copy_5" data-name="Rectangle 8 Copy 5" d="M0,0H53V61H0Z" transform="translate(271 487)" fill="url(#linear-gradient-7)"/>
+    <path id="Line_2_Copy_4" data-name="Line 2 Copy 4" d="M.5.5v149" transform="translate(322 398)" fill="none" stroke="#221f30" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Rectangle_8_Copy_8" data-name="Rectangle 8 Copy 8" d="M0,0H53V129H0Z" transform="translate(323 419)" fill="url(#linear-gradient-7)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_8_Copy_6)">
+      <path id="Rectangle_8_Copy_6-2" data-name="Rectangle 8 Copy 6" d="M0,0H62V136H0Z" transform="translate(212 412)" fill="url(#linear-gradient-7)"/>
+    </g>
+    <text id="Jan" transform="translate(16 392)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" letter-spacing="-0.037em" opacity="0.4"><tspan x="0" y="0">Jan</tspan></text>
+    <text id="Feb" transform="translate(69 392)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" letter-spacing="-0.037em" opacity="0.4"><tspan x="0" y="0">Feb</tspan></text>
+    <text id="Mar" transform="translate(122 392)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" letter-spacing="-0.037em" opacity="0.4"><tspan x="0" y="0">Mar</tspan></text>
+    <text id="Apr" transform="translate(178 392)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" letter-spacing="-0.037em" opacity="0.4"><tspan x="0" y="0">Apr</tspan></text>
+    <text id="May" transform="translate(230 392)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" letter-spacing="-0.037em"><tspan x="0" y="0">May</tspan></text>
+    <text id="Jun" transform="translate(286 392)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" letter-spacing="-0.037em" opacity="0.4"><tspan x="0" y="0">Jun</tspan></text>
+    <text id="Jul" transform="translate(340 392)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI" letter-spacing="-0.037em" opacity="0.4"><tspan x="0" y="0">Jul</tspan></text>
+    <path id="Oval_2" data-name="Oval 2" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(234 229)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_7" data-name="Oval 2 Copy 7" d="M1,0A1,1,0,1,1,0,1,1,1,0,0,1,1,0Z" transform="translate(238 213)" fill="url(#linear-gradient-15)"/>
+    <path id="Oval_2_Copy" data-name="Oval 2 Copy" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(224 210)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_2" data-name="Oval 2 Copy 2" d="M1.5,0A1.5,1.5,0,1,1,0,1.5,1.5,1.5,0,0,1,1.5,0Z" transform="translate(231 189)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_36" data-name="Oval 2 Copy 36" d="M1.5,0A1.5,1.5,0,1,1,0,1.5,1.5,1.5,0,0,1,1.5,0Z" transform="translate(232 202)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_5" data-name="Oval 2 Copy 5" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(222 178)" fill="url(#linear-gradient-19)"/>
+    <path id="Oval_2_Copy_6" data-name="Oval 2 Copy 6" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(216 160)" fill="url(#linear-gradient-19)"/>
+    <path id="Oval_2_Copy_37" data-name="Oval 2 Copy 37" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(215 188)" fill="url(#linear-gradient-19)"/>
+    <path id="Oval_2_Copy_22" data-name="Oval 2 Copy 22" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(168 178)" fill="url(#linear-gradient-22)"/>
+    <path id="Oval_2_Copy_18" data-name="Oval 2 Copy 18" d="M1.5,0A1.5,1.5,0,1,1,0,1.5,1.5,1.5,0,0,1,1.5,0Z" transform="translate(211 152)" fill="url(#linear-gradient-19)"/>
+    <path id="Oval_2_Copy_23" data-name="Oval 2 Copy 23" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(207 136)" fill="url(#linear-gradient-19)"/>
+    <path id="Oval_2_Copy_30" data-name="Oval 2 Copy 30" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(218 119)" fill="url(#linear-gradient-19)"/>
+    <path id="Oval_2_Copy_3" data-name="Oval 2 Copy 3" d="M1.5,0A1.5,1.5,0,1,1,0,1.5,1.5,1.5,0,0,1,1.5,0Z" transform="translate(219 166)" fill="url(#linear-gradient-22)"/>
+    <path id="Oval_2_Copy_4" data-name="Oval 2 Copy 4" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(209 170)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_35" data-name="Oval 2 Copy 35" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(232 210)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_31" data-name="Oval 2 Copy 31" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(220 142)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_21" data-name="Oval 2 Copy 21" d="M1.5,0A1.5,1.5,0,1,1,0,1.5,1.5,1.5,0,0,1,1.5,0Z" transform="translate(199 198)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_20" data-name="Oval 2 Copy 20" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(189 179)" fill="url(#linear-gradient-22)"/>
+    <path id="Oval_2_Copy_19" data-name="Oval 2 Copy 19" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(192 144)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_26" data-name="Oval 2 Copy 26" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(176 126)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_24" data-name="Oval 2 Copy 24" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(188 134)" fill="url(#linear-gradient-15)"/>
+    <path id="Oval_2_Copy_15" data-name="Oval 2 Copy 15" d="M1,0A1,1,0,1,1,0,1,1,1,0,0,1,1,0Z" transform="translate(154 165) rotate(-180)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_38" data-name="Oval 2 Copy 38" d="M1,0A1,1,0,1,1,0,1,1,1,0,0,1,1,0Z" transform="translate(157 194) rotate(-180)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_32" data-name="Oval 2 Copy 32" d="M1,0A1,1,0,1,1,0,1,1,1,0,0,1,1,0Z" transform="translate(150 145) rotate(-180)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_16" data-name="Oval 2 Copy 16" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(180 163) rotate(-180)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_34" data-name="Oval 2 Copy 34" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(148 205) rotate(-180)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_14" data-name="Oval 2 Copy 14" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(145 189) rotate(-180)" fill="url(#linear-gradient-19)"/>
+    <path id="Oval_2_Copy_40" data-name="Oval 2 Copy 40" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(198 162) rotate(-180)" fill="url(#linear-gradient-19)"/>
+    <path id="Oval_2_Copy_13" data-name="Oval 2 Copy 13" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(170 161) rotate(-180)" fill="url(#linear-gradient-22)"/>
+    <path id="Oval_2_Copy_39" data-name="Oval 2 Copy 39" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(160 181) rotate(-180)" fill="url(#linear-gradient-22)"/>
+    <path id="Oval_2_Copy_29" data-name="Oval 2 Copy 29" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(159 130) rotate(-180)" fill="url(#linear-gradient-22)"/>
+    <path id="Oval_2_Copy_27" data-name="Oval 2 Copy 27" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(199 123) rotate(-180)" fill="url(#linear-gradient-22)"/>
+    <path id="Oval_2_Copy_12" data-name="Oval 2 Copy 12" d="M1.5,0A1.5,1.5,0,1,1,0,1.5,1.5,1.5,0,0,1,1.5,0Z" transform="translate(142 210) rotate(-180)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_11" data-name="Oval 2 Copy 11" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(143 230) rotate(-180)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_10" data-name="Oval 2 Copy 10" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(154 204) rotate(-180)" fill="url(#linear-gradient-15)"/>
+    <path id="Oval_2_Copy_9" data-name="Oval 2 Copy 9" d="M1,0A1,1,0,1,1,0,1,1,1,0,0,1,1,0Z" transform="translate(148 180) rotate(-180)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_2_Copy_25" data-name="Oval 2 Copy 25" d="M1,0A1,1,0,1,1,0,1,1,1,0,0,1,1,0Z" transform="translate(159 148) rotate(-180)" fill="url(#linear-gradient-22)"/>
+    <path id="Oval_2_Copy_33" data-name="Oval 2 Copy 33" d="M1,0A1,1,0,1,1,0,1,1,1,0,0,1,1,0Z" transform="translate(164 122) rotate(-180)" fill="url(#linear-gradient-22)"/>
+    <path id="Oval_2_Copy_28" data-name="Oval 2 Copy 28" d="M1,0A1,1,0,1,1,0,1,1,1,0,0,1,1,0Z" transform="translate(185 120) rotate(-180)" fill="url(#linear-gradient-22)"/>
+    <path id="Oval_2_Copy_17" data-name="Oval 2 Copy 17" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(174 148) rotate(-180)" fill="url(#linear-gradient-22)"/>
+    <path id="Oval_2_Copy_8" data-name="Oval 2 Copy 8" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(174 232) rotate(-180)" fill="url(#linear-gradient-14)"/>
+    <path id="Oval_Copy_4" data-name="Oval Copy 4" d="M65.5,0A65.5,65.5,0,1,1,0,65.5,65.5,65.5,0,0,1,65.5,0Z" transform="translate(122 186)" fill="#362937"/>
+    <path id="Oval_Copy_3-4" data-name="Oval Copy 3" d="M53,0A53,53,0,1,1,0,53,53,53,0,0,1,53,0Z" transform="translate(134 198)" fill="rgba(238,119,149,0.5)"/>
+    <path id="Oval_Copy_2-4" data-name="Oval Copy 2" d="M41,0A41,41,0,1,1,0,41,41,41,0,0,1,41,0Z" transform="translate(146 210)" fill="url(#linear-gradient-14)"/>
+    <g id="Group_9" data-name="Group 9" transform="translate(161 235)">
+      <path id="Shape-9" data-name="Shape" d="M21.083,0H2.23L0,7.051H18.853Z" transform="translate(0.068 11.992)" fill="#fff"/>
+      <path id="Shape-10" data-name="Shape" d="M49.783,7.087A154.712,154.712,0,0,1,44.29,23.738c-1.888,4.568-5.755,7.106-10.945,7.12-10.519.029-21.038.01-31.557.009A27.022,27.022,0,0,1,0,28.06l1.142-3.534.47-1.452H2.964q13.483-.018,26.965-.009c3.653,0,3.655,0,4.761-3.41,1.145-3.533,2.23-7.086,3.453-10.592.424-1.213.174-1.416-1.055-1.411C27.532,7.7,6.6,7.694,6.6,7.694L9.091.006s24.1-.02,35.569.016a5.416,5.416,0,0,1,3.7,1.405,5.227,5.227,0,0,1,1.649,3.4A6.189,6.189,0,0,1,49.783,7.087Z" transform="translate(1.882 0.047)" fill="#fff"/>
+      <path id="Shape-11" data-name="Shape" d="M0,.154.049,0H0Z" transform="translate(8.476 7.741)" fill="#fff"/>
+    </g>
+    <text id="DASH" transform="translate(149 352)" fill="#fff" font-size="32" font-family="SegoeUI, Segoe UI" letter-spacing="-0.037em"><tspan x="0" y="0">DASH</tspan></text>
+    <text id="Transactions_Copy" data-name="Transactions Copy" transform="translate(142 582)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI" opacity="0.3"><tspan x="0" y="0">Transactions</tspan></text>
+    <path id="Line_Copy_3" data-name="Line Copy 3" d="M.5,1.5h106" transform="translate(251 575)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1" opacity="0.15"/>
+    <path id="Line_Copy_2" data-name="Line Copy 2" d="M.5,1.5h107" transform="translate(16 575)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1" opacity="0.15"/>
+    <path id="Shape-12" data-name="Shape" d="M1.712,6.293l3.88-3.88,3.88,3.88a1,1,0,0,0,1.41,0h0a1,1,0,0,0,0-1.41L6.293.292a1,1,0,0,0-1.41,0L.292,4.883a1,1,0,0,0,0,1.41h0A1.017,1.017,0,0,0,1.712,6.293Z" transform="translate(236 608)" fill="url(#linear-gradient-56)"/>
+    <path id="Shape_Copy" data-name="Shape Copy" d="M1.712,6.293l3.88-3.88,3.88,3.88a1,1,0,0,0,1.41,0h0a1,1,0,0,0,0-1.41L6.293.292a1,1,0,0,0-1.41,0L.292,4.883a1,1,0,0,0,0,1.41h0A1.017,1.017,0,0,0,1.712,6.293Z" transform="translate(247.175 684.585) rotate(-180)" fill="url(#linear-gradient-57)"/>
+    <path id="Shape_Copy_2" data-name="Shape Copy 2" d="M1.712,6.293l3.88-3.88,3.88,3.88a1,1,0,0,0,1.41,0h0a1,1,0,0,0,0-1.41L6.293.292a1,1,0,0,0-1.41,0L.292,4.883a1,1,0,0,0,0,1.41h0A1.017,1.017,0,0,0,1.712,6.293Z" transform="translate(236 748)" fill="url(#linear-gradient-56)"/>
+  </g>
+</svg>
