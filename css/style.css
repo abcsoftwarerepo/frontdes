@@ -858,22 +858,40 @@ span:nth-of-type(3) {
   .section-3 {
     grid: 1fr / 1fr;
   }
+
   .news-title {
     height: 50vh;
+    display: grid;
+    align-items: center;
+  }
+  .news-title h1 {
+    font-size: 1.8rem;
   }
 
+  .news-item h3 {
+    font-size: 1.3rem;
+  }
+  .news-item p {
+    font-size: 0.9rem;
+  }
   .recent-news img {
-    display: none;
+    width: 40%;
   }
   .news-item {
     height: 50vh;
+    row-gap: initial;
   }
   .recent-news {
     grid: 1fr 1fr 1fr/ 1fr;
   }
 
-  .news-title h1 {
-    font-size: 1.8rem;
+  .underline-article {
+    height: 3px;
+    width: 30%;
+  }
+
+  .news-info {
+    font-size: 0.6rem;
   }
 }
 
