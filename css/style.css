@@ -592,7 +592,7 @@ span:nth-of-type(3) {
   justify-items: center;
   align-items: center;
   text-align: center;
-  row-gap: 30px;
+  row-gap: 2vh;
 }
 
 .section-1 img {
@@ -603,7 +603,7 @@ span:nth-of-type(3) {
   display: grid;
   grid: 1fr 1fr / 1fr 1fr;
   font-family: Oxygen, Helvetica, sans-serif;
-  font-size: 3rem;
+  font-size: 2.5vw;
   font-weight: 500;
   grid-row: 2/2;
   grid-column: 3/3;
@@ -612,7 +612,6 @@ span:nth-of-type(3) {
 }
 
 .title-section-first {
-  align-self: center;
   text-align: center;
   justify-self: center;
   grid-row: 1/1;
@@ -638,12 +637,12 @@ span:nth-of-type(3) {
   grid: 1fr 1fr / 1fr 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
-  column-gap: 20px;
+  column-gap: 2vw;
 }
 
 .graph-item {
   display: grid;
-  font-size: 1rem;
+  font-size: 1.1vw;
   grid-row: span 2;
   justify-items: center;
   align-items: center;
@@ -654,8 +653,8 @@ span:nth-of-type(3) {
 .graph-item object {
   justify-self: center;
   align-self: center;
-  max-width: 200px;
-  max-height: 150px;
+  width: 20vw;
+  height: 20vh;
 }
 
 .section-2 {
@@ -670,7 +669,7 @@ span:nth-of-type(3) {
 .service-title {
   grid-row: 1/1;
   grid-column: 2/2;
-  font-size: 2.5rem;
+  font-size: 2.3vw;
 }
 
 .features {
@@ -1116,7 +1115,7 @@ span:nth-of-type(3) {
     font-weight: 400;
   }
   .nav-menu li p {
-    font-size: 0.5rem;
+    font-size: 1.2vw;
     font-weight: 600;
   }
   .nav-item-st {
@@ -1129,9 +1128,19 @@ span:nth-of-type(3) {
     justify-items: center;
   }
 
-  .flag-icon.flag-icon-squared {
-    width: 15px;
-    height: 10px;
+  .showcase-items h1 {
+    font-size: 7vw;
+  }
+  .showcase-items h3 {
+    font-size: 4vw;
+  }
+
+  .anim-content-text {
+    font-size: 3.5vw;
+  }
+
+  .ml4 .letters {
+    font-size: 3.5vw;
   }
 }
 
