@@ -229,7 +229,6 @@ body {
   grid: 100vh 100vh 100vh 100vh 20vh / 1fr;
   background: url(/img/bg.svg) center;
   background-size: contain;
-  overflow: hidden;
 }
 
 .snap-item {
