@@ -266,7 +266,7 @@ body {
 
 .navbar ul {
   display: grid;
-  grid: 1fr / 2px repeat(6, 1fr 2px);
+  grid: 1fr / 2px repeat(7, 1fr 2px);
   grid-row: 1/1;
   grid-column: 2/2;
   text-align: center;
@@ -280,7 +280,6 @@ body {
   padding: 20px 15px;
 }
 .nav-menu li {
-  padding: 10px 2px;
 }
 
 .nav-menu li a {
