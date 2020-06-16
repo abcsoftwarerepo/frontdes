@@ -174,8 +174,8 @@ a {
   display: grid;
   align-items: center;
   justify-content: center;
-  width: 125px;
-  height: 40px;
+  width: 16vw;
+  height: 6vh;
   letter-spacing: 5px;
   background: transparent;
   color: white;
@@ -939,10 +939,6 @@ span:nth-of-type(3) {
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-  .header {
-    grid: 1fr / 1fr;
-    max-height: 100vh;
-  }
   .button-container {
     visibility: visible;
   }
