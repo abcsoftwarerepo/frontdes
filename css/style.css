@@ -784,12 +784,10 @@ span:nth-of-type(3) {
   .showcase {
     grid: 10fr 1.5fr / 1fr;
     grid-row: 1/1;
-    max-height: 90vh;
   }
 
   .call-action {
     grid: 1fr / 4fr 1fr 4fr;
-    max-height: 10vh;
   }
 
   .section-1 {
@@ -939,6 +937,7 @@ span:nth-of-type(3) {
 @media (max-width: 767.98px) {
   .header {
     grid: 1fr / 1fr;
+    max-height: 100vh;
   }
   .button-container {
     visibility: visible;
