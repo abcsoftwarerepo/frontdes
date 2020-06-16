@@ -180,7 +180,7 @@ a {
   background: transparent;
   color: white;
   transition: 0.25s;
-  border: 2px solid;
+  border: 0.2vw solid;
   border-color: #237a57;
   box-shadow: 0.3em 0.3em 0 0 #237a57, inset 0.3em 0.3em 0 0 #237a57;
   text-shadow: 1px 1px 2px #237a57, 0 0 1em white, 0 0 0.1em white;
