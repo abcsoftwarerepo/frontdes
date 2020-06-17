@@ -670,7 +670,7 @@ span:nth-of-type(3) {
 .service-title {
   grid-row: 1/1;
   grid-column: 2/2;
-  font-size: max(4.3vw, 30px);
+  font-size: max(2.8vw, 30px);
 }
 
 .features {
@@ -695,17 +695,17 @@ span:nth-of-type(3) {
 }
 
 .feature-item h3 {
-  font-size: max(1.3vw, 24px);
+  font-size: max(1.5vw, 24px);
   justify-self: start;
 }
 .feature-item p {
   grid-column: span 2;
-  font-size: max(2.3vw, 20px);
+  font-size: max(1.3vw, 20px);
 }
 
 .feature-title {
   grid-column: span 2;
-  font-size: max(3vw, 30px);
+  font-size: max(2vw, 20px);
   align-self: center;
   text-align: center;
   line-height: 2.5rem;
@@ -721,7 +721,7 @@ span:nth-of-type(3) {
 }
 
 .news-title-container {
-  font-size: max(3vw, 30px);
+  font-size: max(2.8vw, 30px);
   grid-row: 1/1;
   grid-column: 2/2;
 }
@@ -751,8 +751,7 @@ span:nth-of-type(3) {
 }
 
 .news-item p {
-  font-size: max(1.5vw, 18px);
-  hyphens: auto;
+  font-size: max(1.2vw, 18px);
 }
 
 .underline-article {
