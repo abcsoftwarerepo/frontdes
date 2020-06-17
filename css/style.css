@@ -641,7 +641,7 @@ span:nth-of-type(3) {
 
 .graph-item {
   display: grid;
-  font-size: 1.1vw;
+  font-size: max(1.1vw, 20px);
   grid-row: span 2;
   justify-items: center;
   align-items: center;
@@ -816,10 +816,6 @@ span:nth-of-type(3) {
     font-size: 4vw;
   }
 
-  .graph-item {
-    height: 50vh;
-  }
-
   .section-2 {
     grid: 1fr 1fr / 1fr;
   }
@@ -981,7 +977,6 @@ span:nth-of-type(3) {
 
   .graph-item {
     height: 50vh;
-    font-size: max(3vw, 12px);
   }
 
   .section-2 {
@@ -1134,6 +1129,7 @@ span:nth-of-type(3) {
 
   .graph-item {
     height: 50vh;
+    font-size: max(3vw, 20px);
   }
 }
 
