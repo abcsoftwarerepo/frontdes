@@ -193,7 +193,7 @@ a {
 }
 .btn-primary {
   background: transparent;
-  box-shadow: 57px 49px 35px -15px rgba(35, 122, 87, 0.5);
+
   color: #237a57;
   border: 2px solid;
   border-color: #237a57;
@@ -596,14 +596,14 @@ span:nth-of-type(3) {
 }
 
 .section-1 img {
-  width: 8vw;
+  width: max(8vw, 50px);
 }
 
 .title-section {
   display: grid;
   grid: 1fr 1fr / 1fr 1fr;
   font-family: Oxygen, Helvetica, sans-serif;
-  font-size: max(2.5vw, 25px);
+  font-size: max(2.5vw, 45px);
   font-weight: 500;
   grid-row: 2/2;
   grid-column: 3/3;
@@ -637,7 +637,7 @@ span:nth-of-type(3) {
   grid: 1fr 1fr / 1fr 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
-  column-gap: 2vw;
+  column-gap: 0.5vw;
 }
 
 .graph-item {
@@ -653,8 +653,8 @@ span:nth-of-type(3) {
 .graph-item object {
   justify-self: center;
   align-self: center;
-  width: 20vw;
-  height: 20vh;
+  width: max(22vw, 90px);
+  height: max(22vh, 90px);
 }
 
 .section-2 {
@@ -815,10 +815,6 @@ span:nth-of-type(3) {
 
   .ml4 .letters {
     font-size: 4vw;
-  }
-
-  .graph-section {
-    grid: 1fr 1fr 1fr 1fr / 1fr;
   }
 
   .graph-item {
@@ -1077,6 +1073,10 @@ span:nth-of-type(3) {
     text-align: center;
     row-gap: 5px;
   }
+
+  .graph-section {
+    grid: 1fr 1fr 1fr 1fr / 1fr !important;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -1121,6 +1121,15 @@ span:nth-of-type(3) {
   .btn-primary-header {
     font-size: max(2vw, 12px);
     width: max(5vw, 80px);
+  }
+
+  .title-section {
+    font-size: max(4vw, 40px);
+  }
+
+  .graph-section {
+    grid: initial;
+    grid: 1fr 1fr / 1fr 1fr;
   }
 }
 
