@@ -1115,15 +1115,15 @@ span:nth-of-type(3) {
     font-size: max(8vw, 50px);
   }
   .showcase-items h3 {
-    font-size: max(5vw, 35px);
+    font-size: max(4vw, 30px);
   }
 
   .anim-content-text {
-    font-size: max(3.5vw, 30px);
+    font-size: max(3.5vw, 20px);
   }
 
   .ml4 .letters {
-    font-size: max(3.5vw, 30px);
+    font-size: max(3.5vw, 20px);
   }
 }
 
