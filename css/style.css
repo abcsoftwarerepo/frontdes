@@ -226,7 +226,7 @@ a {
 
 body {
   display: grid;
-  grid: 100vh 100vh 100vh 100vh 20vh / 1fr;
+  grid: 100vh 100vh 100vh 100vh 25vh / 1fr;
   background: url(/img/bg.svg) center;
   background-size: contain;
 }
@@ -608,6 +608,7 @@ span:nth-of-type(3) {
   grid-column: 3/3;
   align-items: flex-end;
   text-align: start;
+  height: 50vh;
 }
 
 .title-section-first {
@@ -637,15 +638,16 @@ span:nth-of-type(3) {
   align-items: center;
   justify-items: center;
   column-gap: 0.5vw;
+  height: 50vh;
 }
 
 .graph-item {
   display: grid;
-  font-size: max(1.1vw, 20px);
+  font-size: max(1.1vw, 17px);
   grid-row: span 2;
   justify-items: center;
   align-items: center;
-  row-gap: 20px;
+  row-gap: max(1vh, 10px);
   text-align: center;
 }
 
@@ -660,7 +662,7 @@ span:nth-of-type(3) {
   grid-row: 3/3;
   grid-column: 2 / 2;
   display: grid;
-  grid: 1fr 4fr 1fr / 1fr 4fr 1fr;
+  grid: 1fr 4fr / 1fr 4fr 1fr;
   justify-items: center;
   align-items: center;
 }
