@@ -592,7 +592,6 @@ span:nth-of-type(3) {
   justify-items: center;
   align-items: center;
   text-align: center;
-  row-gap: 2vh;
 }
 
 .section-1 img {
@@ -653,8 +652,8 @@ span:nth-of-type(3) {
 .graph-item object {
   justify-self: center;
   align-self: center;
-  width: max(22vw, 90px);
-  height: max(22vh, 90px);
+  width: max(22vw, 120px);
+  height: max(22vh, 120px);
 }
 
 .section-2 {
@@ -982,6 +981,7 @@ span:nth-of-type(3) {
 
   .graph-item {
     height: 50vh;
+    font-size: max(3vw, 12px);
   }
 
   .section-2 {
@@ -1130,6 +1130,10 @@ span:nth-of-type(3) {
   .graph-section {
     grid: initial;
     grid: 1fr 1fr / 1fr 1fr;
+  }
+
+  .graph-item {
+    height: 50vh;
   }
 }
 
