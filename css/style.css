@@ -775,6 +775,10 @@ span:nth-of-type(3) {
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+  .btn-exp {
+    padding: initial;
+  }
+
   .section-1 {
     grid: 1fr 2fr / 1fr;
     row-gap: initial;
