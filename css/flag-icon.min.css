@@ -16,8 +16,8 @@
   content: "\00a0";
 }
 .flag-icon.flag-icon-squared {
-  height: 3vh;
-  min-width: 2.5vw;
+  height: max(3vh, 10px);
+  width: max(2.5vw, 25px);
 }
 .flag-icon-ad {
   background-image: url(../flags/4x3/ad.svg);
