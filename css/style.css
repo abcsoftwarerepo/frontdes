@@ -1129,7 +1129,7 @@ span:nth-of-type(3) {
 
   .graph-item {
     height: 50vh;
-    font-size: max(3vw, 20px);
+    font-size: max(3vw, 18px);
   }
 }
 
