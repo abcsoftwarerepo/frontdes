@@ -231,6 +231,10 @@ body {
   background-size: contain;
 }
 
+.device-landscape {
+  display: none;
+}
+
 .snap-item {
   scroll-snap-align: start;
 }
@@ -1148,4 +1152,7 @@ span:nth-of-type(3) {
 }
 
 @media (orientation: landscape) {
+  .device-landscape {
+    display: grid;
+  }
 }
