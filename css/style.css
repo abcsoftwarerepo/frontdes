@@ -800,13 +800,6 @@ span:nth-of-type(3) {
     grid-column: 1/-1;
   }
 
-  .showcase-items h1 {
-    font-size: 8vw;
-  }
-  .showcase-items h3 {
-    font-size: 6vw;
-  }
-
   .anim-container {
     grid: 1fr / 1fr;
     column-gap: 0;
@@ -938,9 +931,6 @@ span:nth-of-type(3) {
     grid: 1fr 5fr 1fr / 1fr;
   }
 
-  .header {
-  }
-
   .call-action {
     height: 10vh;
     grid: 1fr / 4fr 1fr 4fr;
@@ -975,13 +965,6 @@ span:nth-of-type(3) {
   .title-section-sec {
     grid-row: 3/3;
     grid-column: 1/-1;
-  }
-
-  .showcase-items h1 {
-    font-size: 10vw;
-  }
-  .showcase-items h3 {
-    font-size: 6vw;
   }
 
   .anim-container {
@@ -1129,18 +1112,18 @@ span:nth-of-type(3) {
   }
 
   .showcase-items h1 {
-    font-size: 7vw;
+    font-size: max(8vw, 50px);
   }
   .showcase-items h3 {
-    font-size: 4vw;
+    font-size: max(5vw, 35px);
   }
 
   .anim-content-text {
-    font-size: 3.5vw;
+    font-size: max(3.5vw, 30px);
   }
 
   .ml4 .letters {
-    font-size: 3.5vw;
+    font-size: max(3.5vw, 30px);
   }
 }
 
