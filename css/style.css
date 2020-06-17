@@ -174,7 +174,7 @@ a {
   display: grid;
   align-items: center;
   justify-content: center;
-  width: 16vw;
+  width: max(10vw, 50px);
   height: 6vh;
   letter-spacing: 5px;
   background: transparent;
@@ -285,7 +285,7 @@ body {
 .nav-menu li a {
   width: 100%;
   height: 100%;
-  font-size: 0.8vw;
+  font-size: max(0.8vw, 12px);
   font-weight: 600;
   color: #237a57;
   font-family: "Oxygen", serif;
@@ -485,13 +485,13 @@ span:nth-of-type(3) {
 
 .showcase-items h1 {
   color: white;
-  font-size: 4vw;
+  font-size: max(4vw, 55px);
   font-weight: 700;
 }
 
 .showcase-items h3 {
   color: white;
-  font-size: 2.5vw;
+  font-size: max(2.5vw, 45px);
   font-weight: 400;
 }
 
@@ -519,7 +519,7 @@ span:nth-of-type(3) {
   grid: 1fr 1fr 1fr/ 1fr 1fr 1fr;
   grid-row: 1 / 1;
   grid-column: 2/4;
-  font-size: 2vw;
+  font-size: max(2vw, 25px);
   color: white;
   justify-self: center;
   justify-items: center;
@@ -553,7 +553,7 @@ span:nth-of-type(3) {
   justify-self: center;
   align-self: center;
   opacity: 1;
-  font-size: 2vw;
+  font-size: max(2vw, 25px);
   color: #237a57;
   text-shadow: 0 1px 2px #237a57, 0 0 5em white, 0 0 0.9em white;
 }
@@ -603,7 +603,7 @@ span:nth-of-type(3) {
   display: grid;
   grid: 1fr 1fr / 1fr 1fr;
   font-family: Oxygen, Helvetica, sans-serif;
-  font-size: 2.5vw;
+  font-size: max(2.5vw, 25px);
   font-weight: 500;
   grid-row: 2/2;
   grid-column: 3/3;
@@ -914,10 +914,6 @@ span:nth-of-type(3) {
     text-align: center;
     row-gap: 5px;
   }
-
-  .btn-primary-header {
-    font-size: 3vw;
-  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -1081,10 +1077,6 @@ span:nth-of-type(3) {
     text-align: center;
     row-gap: 5px;
   }
-
-  .btn-primary-header {
-    font-size: 2.2vw;
-  }
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -1112,7 +1104,7 @@ span:nth-of-type(3) {
   }
 
   .showcase-items h1 {
-    font-size: max(8vw, 50px);
+    font-size: max(8vw, 48px);
   }
   .showcase-items h3 {
     font-size: max(4vw, 30px);
@@ -1124,6 +1116,10 @@ span:nth-of-type(3) {
 
   .ml4 .letters {
     font-size: max(3.5vw, 20px);
+  }
+
+  .btn-primary-header {
+    font-size: max(2vw, 12px);
   }
 }
 
