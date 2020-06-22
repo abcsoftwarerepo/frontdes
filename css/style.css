@@ -819,18 +819,18 @@ span:nth-of-type(3) {
 .breadcrumb {
   background-color: #222;
   color: white;
-
   display: grid;
-  grid: 1fr 1fr /1fr 7fr;
+  grid: 1fr 1fr /1fr 6fr;
 }
 
 .breadcrumb h5 {
-  font-size: max(1.2vw, 15px);
-  justify-self: center;
+  grid-column: span 2;
+  font-size: max(1.2vw, 14px);
+
   align-self: center;
 }
 .breadcrumb h3 {
-  font-size: max(2vw, 25px);
+  font-size: max(2vw, 35px);
   grid-column: span 2;
   align-self: center;
   text-transform: uppercase;
@@ -1009,11 +1009,11 @@ span:nth-of-type(3) {
 }
 .schedule-form-section h3 {
   justify-self: center;
-  font-size: max(2.3vw, 30px);
+  font-size: max(2.3vw, 26px);
 }
 .schedule-form-section p {
   justify-self: center;
-  font-size: max(1.2vw, 24px);
+  font-size: max(1.2vw, 18px);
 }
 
 .progress-bar {
