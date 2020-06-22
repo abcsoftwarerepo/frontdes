@@ -1121,28 +1121,37 @@ span:nth-of-type(3) {
 .service-cards {
   display: grid;
   grid-auto-flow: column;
-  grid: 1fr 1fr / 1fr 1fr;
+  grid: 1fr 1fr / 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
 }
 
 .service-cards h4 {
   text-transform: uppercase;
-  font-size: 1.3vw;
+  font-size: max(1.5vw, 30px);
 }
 .service-cards p {
-  font-size: 1vw;
+  font-size: max(1vw, 16px);
 }
 
 .service-card {
-  width: 35vw;
-  height: 35vh;
+  width: max(30vw, 20vw);
+  height: 50vh;
   color: white;
+  border-radius: 15px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+.service-card i {
+  font-size: max(6vw, 40px);
 }
 
 .card-1 {
   background: linear-gradient(
       -48deg,
-      rgba(36, 226, 254, 0.7) 0%,
-      rgba(36, 176, 254, 1) 54%,
+      rgba(36, 226, 254, 1) 0%,
+      rgba(36, 176, 254, 0.7) 54%,
       rgba(35, 126, 253, 1) 100%
     ),
     url(/img/schedule_img1.png);
@@ -1151,18 +1160,18 @@ span:nth-of-type(3) {
 .card-2 {
   background: linear-gradient(
       -48deg,
-      rgba(36, 226, 254, 0.7) 0%,
-      rgba(36, 176, 254, 1) 54%,
-      rgba(35, 126, 253, 1) 100%
+      rgb(255, 211, 36) 0%,
+      rgba(254, 187, 36, 0.7) 54%,
+      rgba(253, 163, 35, 0.99) 100%
     ),
     url(/img/schedule_img2.jpg);
 }
 .card-3 {
   background: linear-gradient(
       -48deg,
-      rgba(36, 226, 254, 0.7) 0%,
-      rgba(36, 176, 254, 1) 54%,
-      rgba(35, 126, 253, 1) 100%
+      rgba(248, 47, 160, 0.99) 0%,
+      rgba(214, 54, 208, 0.7) 54%,
+      rgba(180, 61, 255, 0.99) 100%
     ),
     url(/img/schedule_img3.jpg);
 }
@@ -1170,27 +1179,27 @@ span:nth-of-type(3) {
 .card-4 {
   background: linear-gradient(
       -48deg,
-      rgba(36, 226, 254, 0.7) 0%,
-      rgba(36, 176, 254, 1) 54%,
-      rgba(35, 126, 253, 1) 100%
+      rgba(0, 188, 128, 0.99) 0%,
+      rgba(2, 204, 71, 0.7) 54%,
+      rgba(3, 220, 13, 0.99) 100%
     ),
     url(/img/schedule_img4.jpg);
 }
 .card-5 {
   background: linear-gradient(
       -48deg,
-      rgba(36, 226, 254, 0.7) 0%,
-      rgba(36, 176, 254, 1) 54%,
-      rgba(35, 126, 253, 1) 100%
+      rgba(10, 39, 119, 0.99) 0%,
+      rgba(6, 23, 175, 0.7) 54%,
+      rgba(97, 87, 233, 0.99) 100%
     ),
-    url(/img/schedule_img5.jpg);
+    url(/img/schedule_img5.jpg) no-repeat center;
 }
 .card-6 {
   background: linear-gradient(
       -48deg,
-      rgba(36, 226, 254, 0.7) 0%,
-      rgba(36, 176, 254, 1) 54%,
-      rgba(35, 126, 253, 1) 100%
+      rgba(165, 80, 11, 0.99) 0%,
+      rgba(204, 133, 2, 0.7) 54%,
+      rgba(226, 111, 16, 0.99) 100%
     ),
     url(/img/schedule_img6.png);
 }
@@ -1544,6 +1553,13 @@ span:nth-of-type(3) {
   .schedule-btn {
     width: auto;
   }
+
+  .service-card {
+    width: max(75vw, 30vw) !important;
+  }
+  .service-cards {
+    grid: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr !important;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -1607,6 +1623,13 @@ span:nth-of-type(3) {
 
   .graph-item {
     font-size: max(3vw, 18px);
+  }
+  .service-card {
+    width: max(45vw, 30vw);
+  }
+
+  .service-cards {
+    grid: 1fr 1fr 1fr / 1fr 1fr;
   }
 }
 
