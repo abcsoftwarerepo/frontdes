@@ -1562,7 +1562,7 @@ span:nth-of-type(3) {
   }
 
   .schedule-card img {
-    width: max(80vw, 60vw) !important;
+    width: max(95vw, 80vw) !important;
   }
 }
 
