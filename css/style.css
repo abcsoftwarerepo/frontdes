@@ -1514,31 +1514,6 @@ span:nth-of-type(3) {
     align-items: center;
   }
 
-  @media (orientation: landscape) {
-    html,
-    body {
-      overflow: hidden;
-    }
-    .device-landscape {
-      display: grid;
-      grid: 1fr 1fr / 1fr;
-      justify-items: center;
-      align-items: center;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-color: white;
-      color: green;
-      width: 100%;
-      height: 100%;
-      z-index: 1000;
-    }
-
-    .device-landscape img {
-      width: max(5vw, 160px);
-    }
-  }
-
   .events ol {
     grid-auto-flow: row;
     justify-items: center;
@@ -1644,3 +1619,28 @@ span:nth-of-type(3) {
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
 }
+
+/* @media (orientation: landscape) {
+  html,
+  body {
+    overflow: hidden;
+  }
+  .device-landscape {
+    display: grid;
+    grid: 1fr 1fr / 1fr;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: green;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+  }
+
+  .device-landscape img {
+    width: max(5vw, 160px);
+  }
+} */
