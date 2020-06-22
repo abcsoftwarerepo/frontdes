@@ -817,10 +817,15 @@ span:nth-of-type(3) {
 }
 
 .breadcrumb {
-  background-color: #222;
+  background: linear-gradient(
+    300deg,
+    rgba(34, 34, 34, 1) 0%,
+    rgba(20, 20, 20, 1) 70%
+  );
   color: white;
   display: grid;
   grid: 1fr 1fr 1fr /1fr 6fr;
+  box-shadow: inset 0px 0px 5px 10px rgba(0, 0, 0, 0.75);
 }
 
 .breadcrumb h5 {
@@ -833,6 +838,7 @@ span:nth-of-type(3) {
   grid-column: span 2;
   align-self: center;
   text-transform: uppercase;
+  text-shadow: 20px 12px 10px rgb(0, 0, 0);
 }
 
 .breadcrumb img {
