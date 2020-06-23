@@ -1400,6 +1400,13 @@ span:nth-of-type(3) {
   opacity: 0.3;
 }
 
+.blog-category-list {
+  display: grid;
+  row-gap: 5px;
+  color: green;
+  font-size: 18px;
+}
+
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
   .btn-exp {
