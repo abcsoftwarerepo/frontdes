@@ -1759,6 +1759,10 @@ span:nth-of-type(3) {
     grid: 1fr 1fr 1fr / 1fr;
     height: initial;
   }
+
+  .blog-section {
+    grid: 1fr / 3fr 1fr;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
