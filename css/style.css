@@ -1327,6 +1327,75 @@ span:nth-of-type(3) {
   font-size: max(1.2vw, 16px);
 }
 
+.blog-section {
+  display: grid;
+  grid: 1fr / 5fr 1fr;
+}
+.blog-news {
+  display: grid;
+}
+.blog-item {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  word-wrap: break-word;
+  row-gap: 20px;
+}
+.blog-item img {
+  width: max(15vw, 20px);
+}
+.underline-blog {
+  height: 4px;
+  width: 20%;
+}
+
+.blog-tabs {
+  grid-row: 1/-1;
+  grid-column: 2/2;
+  background-color: white;
+}
+.blog-tabs h3 {
+  font-size: 30px;
+}
+
+.blog-tabs input {
+  width: 80%;
+  height: 50px;
+  border-color: green;
+  color: green;
+  font-size: 16px;
+}
+.blog-tabs button {
+  width: 15%;
+  height: 50px;
+  border-color: var(--gradient-color2);
+  color: white;
+  background-color: var(--gradient-color2);
+}
+
+.recent-post-list {
+  display: grid;
+  row-gap: 5vh;
+  align-items: center;
+  align-content: center;
+}
+
+.post-list-item {
+  display: grid;
+  align-items: center;
+  grid: auto / auto auto;
+}
+
+.post-list-item a {
+  color: green;
+  font-weight: 600;
+}
+.post-item-line {
+  color: green;
+  opacity: 0.3;
+}
+
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
   .btn-exp {
