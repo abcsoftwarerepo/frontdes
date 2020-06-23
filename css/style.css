@@ -1358,6 +1358,10 @@ span:nth-of-type(3) {
 .blog-tabs h3 {
   font-size: 30px;
 }
+.blog-tabs .minimize {
+  display: grid;
+  color: green;
+}
 
 .blog-tabs input {
   width: 80%;
