@@ -467,11 +467,7 @@ span:nth-of-type(3) {
 }
 
 .dropdown-content {
-  display: none;
-  grid: 1fr 1fr 1fr / 1fr;
-  justify-items: center;
   text-align: center;
-  align-items: center;
   position: absolute;
   top: 74px;
   background: linear-gradient(
@@ -483,6 +479,7 @@ span:nth-of-type(3) {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  z-index: 3;
 }
 
 .dropdown-item {
@@ -520,7 +517,6 @@ span:nth-of-type(3) {
   justify-items: center;
   align-items: center;
   text-align: center;
-  z-index: 2;
   box-shadow: inset -4px 36px 28px -14px rgba(0, 0, 0, 0.7);
   height: 90vh;
 }
@@ -1773,6 +1769,16 @@ span:nth-of-type(3) {
 
   .blog-section {
     grid: 1fr / 3fr 1fr;
+  }
+
+  .dropdown-content {
+    display: grid;
+    top: initial;
+    left: 50px;
+    grid: 1fr / 1fr 1fr 1fr;
+  }
+
+  .dropdown-item {
   }
 }
 
