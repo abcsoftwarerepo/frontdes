@@ -9,6 +9,29 @@
     <link rel="stylesheet" href="css/hover-min.css" />
     <link rel="stylesheet" href="css/fontawesome.min.css" />
     <link rel="stylesheet" href="css/solid.min.css" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <script>
+      (function (exports) {
+        "use strict";
+
+        function initMap() {
+          exports.map = new google.maps.Map(document.getElementById("map"), {
+            center: {
+              lat: -34.397,
+              lng: 150.644,
+            },
+            zoom: 8,
+          });
+        }
+
+        exports.initMap = initMap;
+      })((this.window = this.window || {}));
+    </script>
   </head>
   <body>
     <section class="device-landscape">
@@ -134,7 +157,37 @@
       <h5>Home / About Us</h5>
       <h3>ABOUT US</h3>
     </div>
-    <section class="page-section about-section"></section>
+    <section class="page-section about-section">
+      <div class="about-title">
+        <h3 class="g-text">ABOUT US</h3>
+        <hr class="section-underline g-item" />
+      </div>
+      <div class="about-description">
+        <img src="/img/logo-alone-min.png" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
+          asperiores quia quis similique quam id natus soluta at, laborum
+          expedita? Eum voluptate labore quas sed sit, repudiandae corporis,
+          rerum deleniti expedita blanditiis culpa consequuntur temporibus
+          sapiente obcaecati, magni iusto ipsum qui dolore iste ex praesentium
+          perferendis ratione. Earum aspernatur eum amet odit velit placeat
+          adipisci? Reiciendis illo soluta placeat? Quas vero neque distinctio
+          non atque placeat ipsam, alias iusto facilis soluta ratione voluptas
+          est perspiciatis cumque dignissimos suscipit doloremque,
+          exercitationem numquam. Vel cupiditate deserunt nemo vero non error
+          quo mollitia possimus rem id dolor natus voluptatum illum enim,
+          consequatur placeat, voluptate inventore voluptates delectus. Dolores
+          maiores illo rem impedit nisi vero deserunt exercitationem recusandae
+          tenetur labore. Enim, doloribus eum! Eaque natus porro iusto ipsa
+          alias vitae dolorem omnis, ea quam accusantium quae quibusdam itaque
+          excepturi laboriosam molestias, consequuntur nisi! Iste necessitatibus
+          suscipit rerum perferendis quae, nihil dolores nam. Ipsa, nisi.
+        </p>
+        <a class="btn-lg btn-primary" href="">View Works</a>
+        <a class="btn-lg btn-primary" href="">Read Digital Strategies</a>
+      </div>
+      <div id="map" class="google-maps"></div>
+    </section>
     <section class="call-action">
       <p>
         Your software idea is
@@ -188,7 +241,6 @@
         </ul>
       </div>
     </section>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script>
       $("#toggle").click(function () {
